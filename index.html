@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -9,34 +9,80 @@
     <meta name="author" content="">
 
 <title> Calvin Dong </title>
-<!-- Custom StyleSheet -- >
+
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
-<!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </head>
 
 
 <body>
+	<div id="container">
 
-<div class = "container-fluid">
-<h1> Welcome! </h1>
-
-<p> This is my new homepage. </p>
-<div class = "container-fluid">
-
-<div class="jumbotron">
-  <h2>Calvin Dong:testing</h2> 
-  
-</div>
-
-<form role = "form">
-	<div class = "form-group"> <!-- needed for good spacing -->
-		<label for= "email"> Email: </label>
-		<input type = "email" class="form-control" id="email">
-	</div>
-</form>
+		<div id="name">	
+			Calvin Dong
+		</div>
 		
+		<div id="left">
+			<div class="title">
+				<div class="text" id="projects">	
+					Projects
+				</div>
+			</div>
+
+			<div class="info" hidden>
+				<ul id="list1" >
+					<li class="project"> placeholder </li>
+					<li class="project"> placeholder </li>
+					<li class="project"> placeholder </li>
+					<li class="project"> placeholder </li>
+
+				</ul>	
+			</div>
 
 
+
+		</div>	
+
+		<div id="right">
+			<div class="title">
+				<div class="text" id="about">	
+					About Me
+				</div>
+			</div>	
+				
+			
+			<div id="info" hidden>
+				<ul id="list2" >
+					<li> placeholder </li>
+					<li> placeholder </li>
+					<li> placeholder </li>
+					<li> placeholder </li>
+
+				</ul>	
+			</div>	
+		</div>
+
+	</div>
+	<script>
+	$(document).ready(function() {
+   	
+	$(".title").click(function() {
+   	if($(this).hasClass('active')){
+   		
+   		$(this).removeClass('active',"slow");
+   	}
+   	
+   	else{
+   		$(this).addClass('active',"slow");
+   	}
+   	});
+   	
+   	
+
+	});
+	</script>
 </body>
+
 </html>
