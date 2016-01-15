@@ -44,6 +44,9 @@ border-radius:5px;
 	opacity:0.5;
 
 }
+.project{
+	margin:10px 0px;
+}
 #infolist{
 	list-style-type: none;
 	margin:20px auto;
@@ -56,6 +59,7 @@ border-radius:5px;
 #projectlist{
 	list-style-type:none;
 	padding:0px;
+	margin:20px auto;
 }
 .info{
 	width:90%;

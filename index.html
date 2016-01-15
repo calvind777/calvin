@@ -74,12 +74,12 @@
    		
 
    		$(this).removeClass('active');
-   		$(this).siblings().hide(400);
+   		$(this).siblings().slideUp(200);
    	}
    	
    	else{
    		$(this).addClass('active');
-   		$(this).siblings().show(400);
+   		$(this).siblings().slideDown(200);
 
    	}
    	});
