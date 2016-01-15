@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-			<div class="info" hidden>
+			<div class="info">
 				<ul id="list1" >
 					<li class="project"> placeholder </li>
 					<li class="project"> placeholder </li>
@@ -53,7 +53,8 @@
 			</div>	
 				
 			
-			<div id="info" hidden>
+			<div class="info" >
+				<img src="assets/resizedme.jpg" id="picofme">
 				<ul id="list2" >
 					<li> placeholder </li>
 					<li> placeholder </li>
@@ -71,11 +72,15 @@
 	$(".title").click(function() {
    	if($(this).hasClass('active')){
    		
-   		$(this).removeClass('active',"slow");
+
+   		$(this).removeClass('active');
+   		$(this).siblings().hide(500);
    	}
    	
    	else{
-   		$(this).addClass('active',"slow");
+   		$(this).addClass('active');
+   		$(this).siblings().show(500);
+
    	}
    	});
    	
