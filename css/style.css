@@ -1,5 +1,5 @@
 #container	{
-width:720px;
+width:800px;
 height:100%;
 margin:0 auto;
 background-color:#bac0ce;
@@ -15,19 +15,19 @@ border-radius:5px;
 	display:inline-block;
 	position:absolute;
 	background-color:#e9e8e6;
-	margin:40px 20px;
+	margin:40px 40px;
 
 }
 
 #right{
-	left:360px;
+	left:400px;
 	width:320px;
 	height:480px;
 	z-index:1;
 	display:inline-block;
 	position:absolute;
 	background-color:#e9e8e6;
-	margin:40px 20px;
+	margin:40px 40px;
 
 }
 .title{
