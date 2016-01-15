@@ -42,14 +42,20 @@ border-radius:5px;
 }
 .title:hover{
 	opacity:0.5;
-	
-}
-#list1{
-	list-style-type: none;
 
 }
-#list2{
+#infolist{
+	list-style-type: none;
+	margin:20px auto;
+	padding:0px;
+
+}
+.eachinfo{
+	margin:10px 0px;
+}
+#projectlist{
 	list-style-type:none;
+	padding:0px;
 }
 .info{
 	width:90%;

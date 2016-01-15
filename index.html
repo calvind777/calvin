@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="info">
-				<ul id="list1" >
+				<ul id="projectlist" >
 					<li class="project"> placeholder </li>
 					<li class="project"> placeholder </li>
 					<li class="project"> placeholder </li>
@@ -55,11 +55,11 @@
 			
 			<div class="info" >
 				<img src="assets/resizedme.jpg" id="picofme">
-				<ul id="list2" >
-					<li> placeholder </li>
-					<li> placeholder </li>
-					<li> placeholder </li>
-					<li> placeholder </li>
+				<ul id="infolist" >
+					<li class="eachinfo"> I'm Calvin. </li>
+					<li class="eachinfo">  I like to write things here: </li>
+					<li class="eachinfo"> Tennis was my main thing, but now it's </li>
+					<li class="eachinfo"> Kinda CS, but I like to mix it all. </li>
 
 				</ul>	
 			</div>	
@@ -74,12 +74,12 @@
    		
 
    		$(this).removeClass('active');
-   		$(this).siblings().hide(500);
+   		$(this).siblings().hide(400);
    	}
    	
    	else{
    		$(this).addClass('active');
-   		$(this).siblings().show(500);
+   		$(this).siblings().show(400);
 
    	}
    	});
