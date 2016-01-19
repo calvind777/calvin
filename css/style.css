@@ -41,6 +41,8 @@ background-color:#bac0ce;
 		width:100%;
 		opacity:0.5;
 		transition:all 0.3s;
+		 -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 	}
 
 .logo:hover{
