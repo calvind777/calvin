@@ -4,7 +4,7 @@
 
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -20,74 +20,38 @@
 <body>
 	<div id="container">
 
-		<div id="name">	
-			Calvin Dong
+		<div id="middlebox">
+			<div id="name">	
+				Calvin Dong
+			</div>
+			<div id="desc">
+
+				Writer, aspiring statistician
+
+			</div>	
+				<div id="logorow">
+					<a href="http://www.github.com/calvind777" class="media" border="0"> 
+						<img src="assets/GitHub-Mark-120px-plus.png" class="logo">
+					</a>
+					<a href="http://www.linkedin.com/in/calvindong" class="media" border="0">
+						<img src="assets/In-Black-66px-R.png" class="logo">
+					</a>
+					<a href="http://www.medium.com/@calvind777" class="media" border="0"> 
+						<img src="assets/medium-m-dark-100px.png" class="logo">
+					</a>
+					<a href="mailto:calvind777@gmail.com" class="media" border="0"> 
+						<img src="assets/mail.png" class="logo">
+					</a>
+
+			</div>	
+
+
 		</div>
 		
-		<div id="left">
-			<div class="title">
-				<div class="text" id="projects">	
-					Projects
-				</div>
-			</div>
-
-			<div class="info">
-				<ul id="projectlist" >
-					<li class="project"> placeholder </li>
-					<li class="project"> placeholder </li>
-					<li class="project"> placeholder </li>
-					<li class="project"> placeholder </li>
-
-				</ul>	
-			</div>
-
-
-
-		</div>	
-
-		<div id="right">
-			<div class="title">
-				<div class="text" id="about">	
-					About Me
-				</div>
-			</div>	
-				
 			
-			<div class="info" >
-				<img src="assets/resizedme.jpg" id="picofme">
-				<ul id="infolist" >
-					<li class="eachinfo"> I'm Calvin. </li>
-					<li class="eachinfo">  I like to write things here: </li>
-					<li class="eachinfo"> Tennis was my main thing, but now it's </li>
-					<li class="eachinfo"> Kinda CS, but I like to mix it all. </li>
-
-				</ul>	
-			</div>	
-		</div>
 
 	</div>
-	<script>
-	$(document).ready(function() {
-   	
-	$(".title").click(function() {
-   	if($(this).hasClass('active')){
-   		
-
-   		$(this).removeClass('active');
-   		$(this).siblings().fadeOut(300);
-   	}
-   	
-   	else{
-   		$(this).addClass('active');
-   		$(this).siblings().slideDown(200);
-
-   	}
-   	});
-   	
-   	
-
-	});
-	</script>
+	
 </body>
 
 </html>
